@@ -1,0 +1,53 @@
+
+body{
+	font-family: Helvetica, Arial, "New Times Roman", serif;
+	}
+table{	
+	font-size: 1em;
+}
+thead{
+	text-align: center;
+	font-weight: bold;
+}
+ 
+/*div in index.php*/
+.index-wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*div in addNewEmployee.php*/
+.create-employee-wrapper{
+	width: 600px;
+	margin:0 auto;
+}
+/*div in view.php*/
+.view-wrapper{
+	width: 400px;
+	margin: 0 auto;
+}
+.container{
+	margin-top: 100px;
+}
+.page-header{
+	margin-top: 0;
+}
+.page-header h2{
+	float:left;
+}
+.page-header a{
+	float:right;
+	margin-top: 15px;
+}
+.glyphicon{
+	
+	margin-left: 3px;	
+}
+#submitted{
+	color: rgb(0,128,0);
+	font-size: 20px;
+}
+#empId{
+	display:none;
+}
+
+
